@@ -1,52 +1,52 @@
-Análise de requisitos de funcionamento 
+ï»¿AnÃ¡lise de requisitos de funcionamento 
 
-/*Cadastro de áreas para alugar*/
-Permitir que o Administrador do sistema informe o tamanho da  área, localização de setor e o preço das áreas disponíveis para alocar, além de também de poder acrescentar, tirar ou mudar os avisos que parecem na pagina no usuário sobre as áreas alugáveis.
+/*Cadastro de Ã¡reas para alugar*/
+Permitir que o Administrador do sistema informe o tamanho da  Ã¡rea, localizaÃ§Ã£o de setor e o preÃ§o das Ã¡reas disponÃ­veis para alocar, alÃ©m de tambÃ©m de poder acrescentar, tirar ou mudar os avisos que parecem na pagina no usuÃ¡rio sobre as Ã¡reas alugÃ¡veis.
 
-/*Mostrar áreas disponíveis*/
+/*Mostrar Ã¡reas disponÃ­veis*/
 
-Exibira uma imagem que mostrará os setores que ha shopping, haverá um quandro de avisos que mostre se alguém setor está completamente alocado e o usuário escolherá o setor em que ele deseja alocar uma área. Haverá tela que terá uma tabela com todas as áreas disponíveis e seus respectivos preços e também haverá uma imagem com a área escolhida mostrando os numeroso dos lugares que serão alugado.
+Exibira uma imagem que mostrarÃ¡ os setores que ha shopping, haverÃ¡ um quandro de avisos que mostre se alguÃ©m setor estÃ¡ completamente alocado e o usuÃ¡rio escolherÃ¡ o setor em que ele deseja alocar uma Ã¡rea. HaverÃ¡ tela que terÃ¡ uma tabela com todas as Ã¡reas disponÃ­veis e seus respectivos preÃ§os e tambÃ©m haverÃ¡ uma imagem com a Ã¡rea escolhida mostrando os numeroso dos lugares que serÃ£o alugado.
 
-/*Cadastrar áreas desejadas para alugar*/
+/*Cadastrar Ã¡reas desejadas para alugar*/
 
-Exibirá a área escolhida pelo o usuário e mostrara o contrato de locação para o usuário confirmar o contrato. 
+ExibirÃ¡ a Ã¡rea escolhida pelo o usuÃ¡rio e mostrara o contrato de locaÃ§Ã£o para o usuÃ¡rio confirmar o contrato. 
 
-Análise de requisitos com a referência a itens 
+AnÃ¡lise de requisitos com a referÃªncia a itens 
 Tabelas e colunas do banco de dados
 
-Titulo da pagina Area_nome – TextView
-Cadastro_area – EditText (maximo 3 inteiros)
-Titulo Cadastro_preco – EditText (inteitro)  
-Titulo Cadastro_localizacao – Combobox(Com ate 5 opções)
-Titulo Cadastro_cod – Combobos(Com ...tantos de áreas que podem ser alugadas em cada zona)
-Titulo Avisos – EditText
-Titulo Cadastro_Imagemshopping – EditImage(Carregar imagem, a imagem das áreas do shopping todo) 
+Titulo da pagina Area_nome â€“ TextView
+Cadastro_area â€“ EditText (maximo 3 inteiros)
+Titulo Cadastro_preco â€“ EditText (inteitro)  
+Titulo Cadastro_localizacao â€“ Combobox(Com ate 5 opÃ§Ãµes)
+Titulo Cadastro_cod â€“ Combobos(Com ...tantos de Ã¡reas que podem ser alugadas em cada zona)
+Titulo Avisos â€“ EditText
+Titulo Cadastro_Imagemshopping â€“ EditImage(Carregar imagem, a imagem das Ã¡reas do shopping todo) 
 Button Salvar
 
 Titulo Area_nome - TextView
-Imagem Shopping.jpg – ImageView
-Titulo Avisos – TextView
-Titulo Cadastro_localização – ComboBox(Com até 5 opções)
+Imagem Shopping.jpg â€“ ImageView
+Titulo Avisos â€“ TextView
+Titulo Cadastro_localizaÃ§Ã£o â€“ ComboBox(Com atÃ© 5 opÃ§Ãµes)
 Button Proximo 
 
 
-Titulo Area_nome – TextView  
+Titulo Area_nome â€“ TextView  
 Titulo Areasal_cod - TextView
 Titulo Areasal_preco - TextView 
-Titulo Areasal_tamanho – TextView
+Titulo Areasal_tamanho â€“ TextView
 Imagem AreaShopping.jpg - ImageView
  Button Salvar
 
-Titulo Confirmacao_nome – TextView
-Titulo Confirmacao_area – TextView
+Titulo Confirmacao_nome â€“ TextView
+Titulo Confirmacao_area â€“ TextView
 Titulo Confirmacao_cod - TextView
-Titulo Confirmacao_preco – TextView
+Titulo Confirmacao_preco â€“ TextView
 Imagem Shopping.jpg - ImageView
-Titulo Confirmacao_contrato – TextView
-Titulo Confirmacao_resposta – CheckList
+Titulo Confirmacao_contrato â€“ TextView
+Titulo Confirmacao_resposta â€“ CheckList
 Button Salvar
 
-Análise de requisitos com referência ao método
+AnÃ¡lise de requisitos com referÃªncia ao mÃ©todo
 
 *proximapagina
 *salvacadastroarea
