@@ -1,1 +1,13 @@
- vazio
+Analises de requisitos de funcionamento
+-Tela de Relatórios - (tela deve conter local de inserir login e senha do administrador para acessar as informações dos relatórios)
+-Tela de Remoção de Relatório – (Tela de remoção de relatório deverá conter o campo para inserir a senha do administrador para executar a ação)
+-Tela de Emitir Relatórios – (Emissão de relatório será permitido apenas ao usuário administrador, contendo um ícone de imitir relatório)
+-Tela Relatórios Financeiros – (A tela de relatórios financeiros deverá ser representado por gráficos mensais)
+-Tela Relatórios de compra e venda – (Deverá ser representada por uma tabela separadas por nome da loja, tipo de loja, inicio do contrato e final) 
+
+Analises de requisitos com referência aos métodos  
+-autenticarusuario
+-removerrelatorio
+-salvarrelatorio
+-emitirrelatorio
+-imprimirrelatorio
