@@ -1,49 +1,49 @@
-Cadastro de futuros compradores
+ÔªøCadastro de futuros compradores
 
 Analise de requisito de funcionamento
-Tela de Busca ñ OpÁ„o de cadastrar nova empresa ou buscar uma existente podendo editar ou excluir, e com opÁ„o de voltar. 
-Tela de Cadastro de Futuros Compradores ñ Receber informaÁıes sobre a empresa e o contato de um futuro comprador, ou cancelar.
-Tela de ediÁıes  compradores permite alterar  dados do formul·rio.
-Analise de requisitos com a referencia a itens ñ tabelas e coluna do banco de dados.
+Tela de Busca ‚Äì Op√ß√£o de cadastrar nova empresa ou buscar uma existente podendo editar ou excluir, e com op√ß√£o de voltar. 
+Tela de Cadastro de Futuros Compradores ‚Äì Receber informa√ß√µes sobre a empresa e o contato de um futuro comprador, ou cancelar.
+Tela de edi√ß√µes  compradores permite alterar  dados do formul√°rio.
+Analise de requisitos com a referencia a itens ‚Äì tabelas e coluna do banco de dados.
 Tela de Busca
-Todos os tÌtulos ser„o TextView.
+Todos os t√≠tulos ser√£o TextView.
 Titulo Futuros Compradores.
 Button Cadastrar
-TÌtulo : Digite o CNPJ- EditText(max 11 inteiros (Link Raz„o social edit·vel)) ñ Button Excluir
+T√≠tulo : Digite o CNPJ- EditText(max 11 inteiros (Link Raz√£o social edit√°vel)) ‚Äì Button Excluir
 Button- Voltar
 
 Tela de Cadastro.
-Todos os tÌtulos ser„o TextView.
-TÌtulo Cadastrar
-Titulo: Raz„o Social ñ EditText (max 150 caracteres).
-Titulo CNPJ ñ EditText (max 11 n˙meros)
-Titulo Ramo de Atividade ñ EditText (Max 50 caracteres).
-Titulo Pessoa de Contato ñ EditText(Max 100 Caracteres).
-Titulo Email ñ EditText(Max 50 caracteres).
+Todos os t√≠tulos ser√£o TextView.
+T√≠tulo Cadastrar
+Titulo: Raz√£o Social ‚Äì EditText (max 150 caracteres).
+Titulo CNPJ ‚Äì EditText (max 11 n√∫meros)
+Titulo Ramo de Atividade ‚Äì EditText (Max 50 caracteres).
+Titulo Pessoa de Contato ‚Äì EditText(Max 100 Caracteres).
+Titulo Email ‚Äì EditText(Max 50 caracteres).
 Titulo Numero de Contato- EditText(max 15 Inteiros).
 Button Salvar
 Button Limpar 
 Button Cancelar 
-Tela de EdiÁ„o
-Todos os tÌtulos ser„o TextView.
-TÌtulo Editar
-Titulo: Raz„o Social ñ EditText (max 150 caracteres).
-Titulo CNPJ ñ EditText (max 11 n˙meros)
-Titulo Ramo de Atividade ñ EditText (Max 50 caracteres).
-Titulo Pessoa de Contato ñ EditText(Max 100 Caracteres).
-Titulo Email ñ EditText(Max 50 caracteres).
+Tela de Edi√ß√£o
+Todos os t√≠tulos ser√£o TextView.
+T√≠tulo Editar
+Titulo: Raz√£o Social ‚Äì EditText (max 150 caracteres).
+Titulo CNPJ ‚Äì EditText (max 11 n√∫meros)
+Titulo Ramo de Atividade ‚Äì EditText (Max 50 caracteres).
+Titulo Pessoa de Contato ‚Äì EditText(Max 100 Caracteres).
+Titulo Email ‚Äì EditText(Max 50 caracteres).
 Titulo Numero de Contato- EditText(max 15 Inteiros).
 Button Salvar
 Button Limpar 
 Button Cancelar 
 
-Analise de requisitos com referÍncia aos mÈtodos.
+Analise de requisitos com refer√™ncia aos m√©todos.
 Cnpj - *ValidarCNPJ
 Button Salvar - *SalvarCadastro 
-Button Limpar - *LimparCadastro ñ Limpa todos os campos
+Button Limpar - *LimparCadastro ‚Äì Limpa todos os campos
 Button Cancelar - *CancelarCadastro  - Volta para a tela de busca
-Button Voltar ñ *VoltarMenu ñ Volta para o menu do sistema
-Button Excluir- *ExcluirCadastro ñ Exclui o registro do banco
-Button Cadastrar- *Cadastrar ñ Chamar a tela de cadastro
-Digite o CNPJ ñ Link na Raz„o Social para a tela de ediÁ„o se for encontrado, se n„o mensagem de ìN„o Encontradoî.
+Button Voltar ‚Äì *VoltarMenu ‚Äì Volta para o menu do sistema
+Button Excluir- *ExcluirCadastro ‚Äì Exclui o registro do banco
+Button Cadastrar- *Cadastrar ‚Äì Chamar a tela de cadastro
+Digite o CNPJ ‚Äì Link na Raz√£o Social para a tela de edi√ß√£o se for encontrado, se n√£o mensagem de ‚ÄúN√£o Encontrado‚Äù.
 Monta as telas de acordo com a analise acima
