@@ -1,0 +1,43 @@
+Analises de requisitos de funcionamento
+-Tela de Cadastro
+   *Autenticar Usuário
+       -Login 
+       - Senha
+-Tela de Autenticação
+   *Autenticar Usuário
+       -Login 
+       - Senha
+-Tela de Edição de Usuário
+   *Autenticar Usuário
+       -Login 
+       - Senha
+-Tela de Remoção de Usuário
+    *Autenticar Usuário
+       -Login 
+       - Senha
+Analises de requisitos com a referência a itens
+  -Tela de Cadastro
+      *nome 
+      *data de nascimento
+      *cpf (restrição 11 números)
+      *sexo (componente checkbox para escolha única)
+      *e-mail
+      *usuário
+      *senha (restrição 6 caracteres)
+-Tela de Autenticação
+   *Usuário
+   *Senha
+-Tela de Edição de Usuário
+   *Editar Nome
+   *Editar e-mail
+   *Modificar Senha
+
+-Tela de Remoção de Usuário
+   *Excluir Usuário
+
+
+Analises de requisitos com referencia aos métodos
+-cadastrausuario  
+-autenticarusuario
+-editarusuario
+-removerusuario
