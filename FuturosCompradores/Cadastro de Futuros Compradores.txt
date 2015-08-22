@@ -1,0 +1,49 @@
+Cadastro de futuros compradores
+
+Analise de requisito de funcionamento
+Tela de Busca – Opção de cadastrar nova empresa ou buscar uma existente podendo editar ou excluir, e com opção de voltar. 
+Tela de Cadastro de Futuros Compradores – Receber informações sobre a empresa e o contato de um futuro comprador, ou cancelar.
+Tela de edições  compradores permite alterar  dados do formulário.
+Analise de requisitos com a referencia a itens – tabelas e coluna do banco de dados.
+Tela de Busca
+Todos os títulos serão TextView.
+Titulo Futuros Compradores.
+Button Cadastrar
+Título : Digite o CNPJ- EditText(max 11 inteiros (Link Razão social editável)) – Button Excluir
+Button- Voltar
+
+Tela de Cadastro.
+Todos os títulos serão TextView.
+Título Cadastrar
+Titulo: Razão Social – EditText (max 150 caracteres).
+Titulo CNPJ – EditText (max 11 números)
+Titulo Ramo de Atividade – EditText (Max 50 caracteres).
+Titulo Pessoa de Contato – EditText(Max 100 Caracteres).
+Titulo Email – EditText(Max 50 caracteres).
+Titulo Numero de Contato- EditText(max 15 Inteiros).
+Button Salvar
+Button Limpar 
+Button Cancelar 
+Tela de Edição
+Todos os títulos serão TextView.
+Título Editar
+Titulo: Razão Social – EditText (max 150 caracteres).
+Titulo CNPJ – EditText (max 11 números)
+Titulo Ramo de Atividade – EditText (Max 50 caracteres).
+Titulo Pessoa de Contato – EditText(Max 100 Caracteres).
+Titulo Email – EditText(Max 50 caracteres).
+Titulo Numero de Contato- EditText(max 15 Inteiros).
+Button Salvar
+Button Limpar 
+Button Cancelar 
+
+Analise de requisitos com referência aos métodos.
+Cnpj - *ValidarCNPJ
+Button Salvar - *SalvarCadastro 
+Button Limpar - *LimparCadastro – Limpa todos os campos
+Button Cancelar - *CancelarCadastro  - Volta para a tela de busca
+Button Voltar – *VoltarMenu – Volta para o menu do sistema
+Button Excluir- *ExcluirCadastro – Exclui o registro do banco
+Button Cadastrar- *Cadastrar – Chamar a tela de cadastro
+Digite o CNPJ – Link na Razão Social para a tela de edição se for encontrado, se não mensagem de “Não Encontrado”.
+Monta as telas de acordo com a analise acima
