@@ -1,0 +1,56 @@
+﻿Análise de requisitos de funcionamento 
+
+/*Cadastro de áreas para alugar*/
+Permitir que o Administrador do sistema informe o tamanho da  área, localização de setor e o preço das áreas disponíveis para alocar, além de também de poder acrescentar, tirar ou mudar os avisos que parecem na pagina no usuário sobre as áreas alugáveis.
+
+/*Mostrar áreas disponíveis*/
+
+Exibira uma imagem que mostrará os setores que ha shopping, haverá um quandro de avisos que mostre se alguém setor está completamente alocado e o usuário escolherá o setor em que ele deseja alocar uma área. Haverá tela que terá uma tabela com todas as áreas disponíveis e seus respectivos preços e também haverá uma imagem com a área escolhida mostrando os numeroso dos lugares que serão alugado.
+
+/*Cadastrar áreas desejadas para alugar*/
+
+Exibirá a área escolhida pelo o usuário e mostrara o contrato de locação para o usuário confirmar o contrato. 
+
+Análise de requisitos com a referência a itens 
+Tabelas e colunas do banco de dados
+
+Titulo da pagina Area_nome – TextView
+Cadastro_area – EditText (maximo 3 inteiros)
+Titulo Cadastro_preco – EditText (inteitro)  
+Titulo Cadastro_localizacao – Combobox(Com ate 5 opções)
+Titulo Cadastro_cod – Combobos(Com ...tantos de áreas que podem ser alugadas em cada zona)
+Titulo Avisos – EditText
+Titulo Cadastro_Imagemshopping – EditImage(Carregar imagem, a imagem das áreas do shopping todo) 
+Button Salvar
+
+Titulo Area_nome - TextView
+Imagem Shopping.jpg – ImageView
+Titulo Avisos – TextView
+Titulo Cadastro_localização – ComboBox(Com até 5 opções)
+Button Proximo 
+
+
+Titulo Area_nome – TextView  
+Titulo Areasal_cod - TextView
+Titulo Areasal_preco - TextView 
+Titulo Areasal_tamanho – TextView
+Imagem AreaShopping.jpg - ImageView
+ Button Salvar
+
+Titulo Confirmacao_nome – TextView
+Titulo Confirmacao_area – TextView
+Titulo Confirmacao_cod - TextView
+Titulo Confirmacao_preco – TextView
+Imagem Shopping.jpg - ImageView
+Titulo Confirmacao_contrato – TextView
+Titulo Confirmacao_resposta – CheckList
+Button Salvar
+
+Análise de requisitos com referência ao método
+
+*proximapagina
+*salvacadastroarea
+*abrecadastro
+
+Monta as telas de acordo com a analise acima
+
