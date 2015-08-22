@@ -1,42 +1,42 @@
-Analises de requisitos de funcionamento
+ÔªøAnalises de requisitos de funcionamento
 -Tela de Cadastro
-   *Autenticar Usu·rio
+   *Autenticar Usu√°rio
        -Login 
        - Senha
--Tela de AutenticaÁ„o
-   *Autenticar Usu·rio
+-Tela de Autentica√ß√£o
+   *Autenticar Usu√°rio
        -Login 
        - Senha
--Tela de EdiÁ„o de Usu·rio
-   *Autenticar Usu·rio
+-Tela de Edi√ß√£o de Usu√°rio
+   *Autenticar Usu√°rio
        -Login 
        - Senha
--Tela de RemoÁ„o de Usu·rio
-    *Autenticar Usu·rio
+-Tela de Remo√ß√£o de Usu√°rio
+    *Autenticar Usu√°rio
        -Login 
        - Senha
-Analises de requisitos com a referÍncia a itens
+Analises de requisitos com a refer√™ncia a itens
   -Tela de Cadastro
       *nome 
       *data de nascimento
-      *cpf (restriÁ„o 11 n˙meros)
-      *sexo (componente checkbox para escolha ˙nica)
+      *cpf (restri√ß√£o 11 n√∫meros)
+      *sexo (componente checkbox para escolha √∫nica)
       *e-mail
-      *usu·rio
-      *senha (restriÁ„o 6 caracteres)
--Tela de AutenticaÁ„o
-   *Usu·rio
+      *usu√°rio
+      *senha (restri√ß√£o 6 caracteres)
+-Tela de Autentica√ß√£o
+   *Usu√°rio
    *Senha
--Tela de EdiÁ„o de Usu·rio
+-Tela de Edi√ß√£o de Usu√°rio
    *Editar Nome
    *Editar e-mail
    *Modificar Senha
 
--Tela de RemoÁ„o de Usu·rio
-   *Excluir Usu·rio
+-Tela de Remo√ß√£o de Usu√°rio
+   *Excluir Usu√°rio
 
 
-Analises de requisitos com referencia aos mÈtodos
+Analises de requisitos com referencia aos m√©todos
 -cadastrausuario  
 -autenticarusuario
 -editarusuario
