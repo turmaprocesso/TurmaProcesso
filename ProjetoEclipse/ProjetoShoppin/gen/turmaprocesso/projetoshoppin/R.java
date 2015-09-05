@@ -20,7 +20,11 @@ public final class R {
     }
     public static final class layout {
         public static final int entrada=0x7f030000;
+<<<<<<< HEAD
         public static final int grupofuturocadastrocompradores=0x7f030001;
+=======
+        public static final int gruporelatoriotela1=0x7f030001;
+>>>>>>> origin/master
         public static final int grupotelaalugueis=0x7f030002;
     }
     public static final class string {
