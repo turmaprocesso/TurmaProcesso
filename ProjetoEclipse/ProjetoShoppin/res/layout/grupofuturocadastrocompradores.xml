@@ -3,6 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:text="@string/BotãoCadastrar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/BotãoCancelar" />
 
 </LinearLayout>

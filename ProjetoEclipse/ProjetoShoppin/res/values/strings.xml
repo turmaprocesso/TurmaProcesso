@@ -3,5 +3,9 @@
 
     <string name="app_name">ProjetoShoppin</string>
     <string name="hello_world">Hello world!</string>
+    <string name="Titulo">Digite o CNPJ</string>
+    <string name="Botão">Cadastrar</string>
+    <string name="BotãoCancelar">Cancelar</string>
+    <string name="BotãoCadastrar">Cadastrar</string>
 
 </resources>
